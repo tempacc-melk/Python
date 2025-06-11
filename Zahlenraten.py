@@ -1,15 +1,15 @@
 import random
 
+def zahlenbereich(a, b):
+    a = int(input("Von: "))
+    b = int(input("Bis: "))
+    return a, b
+
 print("Lassen Sie uns ein Ratespiel spielen, wie viele Zahlen möchten Sie erraten?")
 anzahl = int(input("Anzahl: "))
 while (anzahl <= 0):
     print("Sie können nicht 0 oder weniger Runden spielen, bitte geben Sie eine neue Zahl ein.")
     anzahl = int(input("Anzahl: "))
-
-def zahlenbereich(von, bis):
-    von = int(input("Von: "))
-    bis = int(input("Bis: "))
-    return von, bis
 
 von = 0
 bis = 0
@@ -29,7 +29,7 @@ print(f"Erraten Sie die Zahl von {von} bis {bis} - {anzahl}mal. Viel Erfolg!")
 counter = 0
 versuche = 1
 while counter < anzahl:
-    vorschlag = int(input(f"Zahl Nr{counter+1} | Versuche {versuche}: "))
+    vorschlag = int(input(f"Zahl Nr{counter+1} | Versuch {versuche}: "))
     if vorschlag < ratezahl[counter]:
         print("Zu klein!")
         versuche += 1
