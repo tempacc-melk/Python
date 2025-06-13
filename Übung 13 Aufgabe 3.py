@@ -11,4 +11,4 @@ def fibonacci (n):
 
 flist = fibonacci(20)
 for i in flist:
-    print (f"{i:>4}")
+    print (f"{i:4}")

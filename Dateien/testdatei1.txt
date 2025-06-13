@@ -1,0 +1,9 @@
+Das ist unsere erste Datei
+Primzahlen bis 10 (Liste): [2, 3, 5, 7]
+Primzahlen bis 10 (Einzeln): 2 3 5 7 
+Umlaute ÄÖÜäöüß
+0
+1
+2
+3
+4
