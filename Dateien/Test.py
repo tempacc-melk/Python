@@ -1,5 +1,7 @@
 # Sämtlicher Inhalt dieser Daten dient lediglich zum testen
-import meinmodul as mm
+import sys
+sys.path.append('./')
+from Lib import meinmodul as mm
 
 print(mm.primzahlen_bis(11))
 

@@ -1,0 +1,21 @@
+Der wuetende Programmierer
+
+Ein Coder schrieb in C und Python,
+sein Rechner roehrte: "Byte on, byte on!"
+Doch ploetzlich stuerzt sein Toolchen ab —
+im Log: "Ungueltiges Umlaut-Tab!"
+
+Er fluchte: "Klueger waer’s gewesen,
+das Encoding klar zu lesen!"
+Doch in den Strings, oh welch Geschrei,
+da stand: "Grueße, sueßer Baerenei!"
+
+Die Aes, die Oes, die Ues — oh Graus,
+die warf das Script im Codeverhau.
+Er suchte stundenlang den Fehler,
+der Text wurd kruemeliger, quaeler.
+
+Am Ende rief er laut "Hurra!",
+das UTF-8 war wieder da.
+Seitdem — das weiß nun jedes Kind —
+Umlaut-Probleme schnell verschwind’

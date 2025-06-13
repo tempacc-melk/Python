@@ -1,6 +1,8 @@
-import meinmodul as mm
+import sys
+sys.path.append('./')
+from Lib import meinmodul as mm
 
-do = open ("testdatei1.txt", "w", encoding="utf-8")
+do = open ("./Textdateien/testdatei1.txt", "w", encoding="utf-8")
 
 liste = mm.primzahlen_bis(10)
 
