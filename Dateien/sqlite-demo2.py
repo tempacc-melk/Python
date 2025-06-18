@@ -10,11 +10,3 @@ db.close ()
 
 for i in daten:
     print (f"| {i[1]:10} | {i[2]:5} | {i[3]:6} | {i[4]:3} |")
-
-text = "Test,Baum,Auto,Ball"
-liste = text.split(',')
-
-for i in range (len(liste)):
-    liste[i] += f" {i}"
-
-print (liste)
