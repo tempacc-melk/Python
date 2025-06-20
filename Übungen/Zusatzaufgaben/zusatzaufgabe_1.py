@@ -8,7 +8,7 @@ zahlenanzahl = int (input ("Wie viele Zahlen sollen generiert werden?: "))
 
 liste = mm.randomliste (zahlenvon, zahlenbis, zahlenanzahl)
 
-do = open ("Textdateien/zufallszahlen.txt", "w", encoding="utf-8")
+do = open ("././Textdateien/zufallszahlen.txt", "w", encoding="utf-8")
 
 for zeile in liste:
     do.write (f"{zeile}\n")

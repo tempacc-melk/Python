@@ -1,13 +1,13 @@
 import sys
 sys.path.append('./')
-from Lib import meinmodul as mm
+from Lib import sortierungsmodul as sm
 
 do = open ("./Textdateien/zahlen-unsortiert.txt", "r")
 liste = []
 for zeile in do:
     liste.append (int(zeile))
 
-mm.Bubblesort (liste)
+sm.bubblesort (liste)
 do.close ()
 
 do = open ("./Textdateien/zahlen-sortiert.txt", "w", encoding="utf-8")

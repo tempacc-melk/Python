@@ -9,6 +9,6 @@ cursor = db.cursor ()
 
 sql = "CREATE TABLE IF NOT EXISTS telefon (ID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, Telefonnummer TEXT)"
 
-db.execute (sql)
+cursor.execute (sql)
 
 db.close ()
