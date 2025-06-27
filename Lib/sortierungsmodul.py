@@ -57,3 +57,24 @@ def mergesort (liste):
             k += 1
 
     return liste
+def quicksort (liste, unten, oben):
+    '''
+    Sortiert eine Liste mittels dem Quicksort Algorithmus\n
+    :param liste: Liste die sortiert werden soll, unterer Index (0), oberer Index (Länge der Liste - 1)
+    :return liste: Wird aufsteigend sortiert ausgegeben
+    ''' 
+    if unten < oben:
+        piv = quicksort_ds_teilen (liste, unten, oben)
+        quicksort (liste, unten, piv-1)
+        quicksort (liste, piv+1, oben)
+def quicksort_ds_teilen (liste, unten, oben):
+    pivot = liste[oben]
+    i = unten - 1
+    for j in range (unten, oben):
+        if liste[j] <= pivot:
+            i += 1
+            liste[i], liste[j] = liste[j], liste[i]
+
+    liste[i+1], liste[oben] = liste[oben], liste[i+1]
+
+    return (i + 1)
