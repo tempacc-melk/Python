@@ -13,6 +13,7 @@ def insertsort (liste):
         liste[j] = einzusortierender_wert
 
     return liste
+
 def bubblesort (liste):
     '''
     Sorte eine Liste mittels dem Bubblesort Algorithmus\n
@@ -25,6 +26,7 @@ def bubblesort (liste):
                 liste[i], liste[i + 1] = liste[i + 1], liste[i]
 
     return liste
+
 def mergesort (liste):
     '''
     Sortiert eine Liste mittels dem MergeSort Algorithmus\n
@@ -57,6 +59,7 @@ def mergesort (liste):
             k += 1
 
     return liste
+
 def quicksort (liste, unten, oben):
     '''
     Sortiert eine Liste mittels dem Quicksort Algorithmus\n
@@ -67,6 +70,7 @@ def quicksort (liste, unten, oben):
         piv = quicksort_ds_teilen (liste, unten, oben)
         quicksort (liste, unten, piv-1)
         quicksort (liste, piv+1, oben)
+
 def quicksort_ds_teilen (liste, unten, oben):
     pivot = liste[oben]
     i = unten - 1
