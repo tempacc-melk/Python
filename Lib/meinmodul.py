@@ -37,7 +37,7 @@ def primzahlen_vonbis (von, bis, limit):
     :return liste: Eine Liste mit allen Primzahlen 'von' 'bis' mit 'limit' Elementen zurück
     '''
     liste = []
-    if bis == None: bis = von * von
+    if bis == None: bis = (von + limit)**2
     for i in range (von, bis + 1):
         if primtest (i):
             liste.append (i)

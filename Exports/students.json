@@ -1,0 +1,17 @@
+[
+     {
+          "name": "John Doe",
+          "age": 20,
+          "major": "Physics"
+     },
+     {
+          "name": "John Smith",
+          "age": 22,
+          "major": "Mathematics"
+     },
+     {
+          "name": "Alex mayer",
+          "age": 23,
+          "major": "Biology"
+     }
+]
